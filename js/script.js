@@ -72,7 +72,7 @@ prev.addEventListener('click', prevSlide);
 window.addEventListener('load', function() {
   setTimeout(function() {
     document.querySelector('.promo__iframe').src = 'https://www.youtube.com/embed/jKNdGbyrzZg';
-  }, 3000);
+  }, 1500);
 });
 
 /* ------------ < / IFRAME > ------------------------------------------------------------ */
