@@ -1,0 +1,27 @@
+//===========< Медиа-запросы >===========
+
+@mixin md1 {
+  @media (max-width: $maxWidthContainer) {
+    @content;
+  }
+}
+
+@mixin md2 {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin md3 {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin md4 {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+//===========< / Медиа-запросы >===========
